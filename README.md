@@ -12,6 +12,10 @@ A small Go HTTP server for testing and experimentation. It handles graceful shut
 
 The periodic health failures and delayed readiness are intentional, making this useful for testing Kubernetes probe behavior and rollout strategies.
 
+## DockerHub
+
+This container is pushed to <https://hub.docker.com/r/jakobjs/hello-server>
+
 ## Run locally
 
 ```bash
